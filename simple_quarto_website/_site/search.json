@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "slides/slides.html#dj-khaled-photo-1",
+    "href": "slides/slides.html#dj-khaled-photo-1",
+    "title": "Sample Presentation",
+    "section": "DJ Khaled Photo 1",
+    "text": "DJ Khaled Photo 1"
+  },
+  {
+    "objectID": "slides/slides.html#dj-khaled-photo-2",
+    "href": "slides/slides.html#dj-khaled-photo-2",
+    "title": "Sample Presentation",
+    "section": "DJ Khaled Photo 2",
+    "text": "DJ Khaled Photo 2"
+  },
+  {
+    "objectID": "slides/slides.html#plot",
+    "href": "slides/slides.html#plot",
+    "title": "Sample Presentation",
+    "section": "Plot",
+    "text": "Plot\n\n\nexpand for full code\nimport random\nimport numpy as np\nimport matplotlib.pyplot as plt\nx = random.sample(range(1,30),10)\ny = random.sample(range(1,30),10)\nplt.plot(x,y,'o')\nplt.title(\"Random Numbers\")\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#reference",
+    "href": "slides/slides.html#reference",
+    "title": "Sample Presentation",
+    "section": "Reference",
+    "text": "Reference\n(Suhonen et al. 2018)\n\n\n\n\n\n\nSuhonen, Niko, Jani Saastamoinen, Tuomo Kainulainen, and David Forrest. 2018. “Is Timing Everything in Horse Betting? Bet Amount, Timing and Bettors’ Returns in Pari-Mutuel Wagering Markets.” Economics Letters 173: 97–99."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Hello, World\nMy last name is Carswell.\nThe well known Pythagorean theorem: \\(x^2 + y^2 = z^2\\) was proved to be invalid for other exponents. Meaning the next equation has no integer solutions: \\[[ x^n + y^n = z^n ]\\] (Rahm, Do, et al. 2000)\nHere is a footnote reference,1"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote.↩︎"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "import random\nimport numpy as np\nimport matplotlib.pyplot as plt\nx = random.sample(range(1,30),10)\ny = random.sample(range(1,30),10)\nplt.plot(x,y,'o')\nplt.title(\"Random Numbers\")\nplt.show()"
+  },
+  {
+    "objectID": "about.html#this-site-was-created-in-the-week-of-september-11",
+    "href": "about.html#this-site-was-created-in-the-week-of-september-11",
+    "title": "About",
+    "section": "",
+    "text": "import random\nimport numpy as np\nimport matplotlib.pyplot as plt\nx = random.sample(range(1,30),10)\ny = random.sample(range(1,30),10)\nplt.plot(x,y,'o')\nplt.title(\"Random Numbers\")\nplt.show()"
+  }
+]

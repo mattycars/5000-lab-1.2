@@ -1,0 +1,74 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+---
+<h1> Hello, World </h1>
+This is a Quarto website.
+<h2> My name is Matt. </h2>
+My last name is Carswell.
+
+:::: {.columns}
+::: {.column width="50%"}
+### Interests
+
+Statistics, Economics, Impact Investing, Sports Handicappings
+:::
+
+::: {.column width="50%"}
+### Hobbies
+
+Running, Cooking, SCUBA diving, Snowboarding
+
+:::
+::::
+
+::: {layout-ncol=2}
+### My Favorite Sports Teams
+
+- UVA Sports
+- Baltimore Ravens
+- Washington Nationals
+- Washington Capitals
+
+:::
+
+<h3> Favorite Albums </h3>
+| Album  | Artist |
+|--------|--------|
+| Blonde | Frank Ocean   |
+| Illmatic  | Nas |
+| GKMC | Kendrick Lamar  |
+
+: {tbl-colwidths="[75,25]"}
+
+<h3> Equation</h3>
+The well known Pythagorean theorem: $x^2 + y^2 = z^2$  was proved to be invalid for other exponents. Meaning the next equation has no integer solutions:
+$$[ x^n + y^n = z^n ]$$
+[@rahm2000data]
+
+Here is a footnote reference,[^1]
+
+[^1]: Here is the footnote.
+
+### Videos and Images
+{{< video https://www.youtube.com/watch?v=EZkBP5WvDbw >}}
+
+![](images/Khaled.jpg){fig-align="left" width="6.62in"}
+
+![](images/Khaled2.jpeg){fig-align="left" width="6.62in"}
+
+> "I love these videos and images." - Me
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Hard work] --> B(Better Opportunities)
+  B --> C{Good Job}
+  C --> D[Money]
+  C --> E[Fufillment]
+```
+### References
+
+::: {#refs}
+:::
